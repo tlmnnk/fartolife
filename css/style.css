@@ -1,0 +1,85 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background: #111 url(../img/bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: arial;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: all .3s ease;
+}
+img:hover {
+    transform: scale(1.07);
+}
+
+section {
+	padding-top: 35px;
+}
+
+.padding-on {
+	padding: 0;
+}
+
+article {
+	padding: 10px;
+}
+/* modal */
+#boxUserFirstInfo {
+    max-width: 300px;
+    background: #222;
+    padding: 25px;
+    border-radius: 19px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.8);
+    border: 1px solid #3CCD00;
+	overflow: hidden;
+}
+
+.box-modal_close {
+    background: #018501;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+	cursor: pointer;
+	margin-right: 15px;
+	font-size: 14px;
+}
+
+.no_pluss {
+    float: right;
+    padding: 10px;
+    background: #CD003D;
+    border-radius: 5px;
+    color: #fff;
+	font-size: 14px;
+}
+
+.no_pluss:hover{
+    text-decoration:none;
+    color: #fff;
+}
+
+.box-modal h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 0 15px 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+@media (max-width: 480px) {
+.mobcentr {
+margin-left: 25%;
+}
+}
